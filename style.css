@@ -1,11 +1,11 @@
 body {
-    background-color: #EEE;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    background-color: #7a90bf;
+    font-family: 'Courier New', monospace;
 }
 
 a {
   text-decoration: none;
-  color: #B23333;
+  color: #b3804b;
 }
 
 h1, h2, h3  {
@@ -21,7 +21,7 @@ h1, h2, h3  {
 }
 
 #header {
-    background-color: #18453B;
+    background-color:#7a90bf;
     color: white;
     text-align: center;
     padding: 10px;
@@ -54,11 +54,9 @@ h1, h2, h3  {
 }
 
 #student-group {
-  clear: both;
   margin: 20px;
-  border: 20px;
-  padding: 10px;
-  background-color:  #d3d3d3;
+  padding: 30px;
+  background-color: #e1e5f0;
   color: black;
   text-align: left;
 }
@@ -66,7 +64,7 @@ h1, h2, h3  {
 #footer {
   clear: both;
   padding: 10px;
-  background-color: #97a2a2;
+  background-color: #bfbbb8;
   color: white;
   text-align: right;
 }
@@ -75,7 +73,7 @@ h1, h2, h3  {
   color: black;
   text-align: right;
 }
-.schedule-resources {
+.homework {
   font-weight: lighter;
   color: black;
   text-align: left;
