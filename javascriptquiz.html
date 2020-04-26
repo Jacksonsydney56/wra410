@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sydney's WRA410 quiz!</title>
+<link href ="javascriptingquiz.css" rel ="stylesheet">
+<script src = "javascriptquiz.js"></script>
+
+</head>
+
+
+<body>
+<h1>This is best quiz in the WRA410 class!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Which of the following is the best example of a boolean expression in Rails?</p>
+<input type = "radio" id = "mc" name = "question1" value = "hasMany"> hasMany<br>
+<input type = "radio" id = "mc" name = "question1" value = "name"> name<br>
+<input type = "radio" id = "mc" name = "question1" value = "belongsTo"> belongsTo<br>
+<input type = "radio" id = "mc" name = "question1" value = "isPresent"> isPresent<br>
+
+
+<p class = "questions">How do models relate to ruby classes?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Takes care of the data inside your website, also called an 'active record'"> Takes care of the data inside your website, also called an 'active record'<br>
+<input type = "radio" id = "mc" name = "question2" value = "A collection of code that can be extracted into a collection that can be called on later on"> A collection of code that can be extracted into a collection that can be called on later on<br>
+<input type = "radio" id = "mc" name = "question2" value = "What in seen on the website, includes html and css files"> What in seen on the website, includes html and css files<br>
+
+<p class = "questions">How do app/views relate to ruby classes?</p>
+<input type = "radio" id = "mc" name = "question3" value = "What is seen on the website, includes html and css files"> What is seen on the website, includes html and css files<br>
+<input type = "radio" id = "mc" name = "question3" value = "A collection of code that can be extracted into a collection that can be called on later on"> A collection of code that can be extracted into a collection that can be called on later on<br>
+<input type = "radio" id = "mc" name = "question3" value = "Takes care of the data inside your website, also called an 'active record'"> Takes care of the data inside your website, also called an 'active record'<br>
+
+<p class = "questions">How do you create a new folder on your terminal?</p>
+<input type = "radio" id = "mc" name = "question4" value = "pwd"> pwd<br>
+<input type = "radio" id = "mc" name = "question4" value = "mkdir"> mkdir<br>
+<input type = "radio" id = "mc" name = "question4" value = "cd"> cd<br>
+<input type = "radio" id = "mc" name = "question4" value = "ls"> ls<br>
+
+<p class = "questions">What is the correct way to accessing a specific array value with javascript?</p>
+<input type = "radio" id = "mc" name = "question5" value = "const food = [apple, pizza, pear] Console.log(food[1])"> const food = [apple, pizza, pear] Console.log(food[1])<br>
+<input type = "radio" id = "mc" name = "question5" value = "const food = [apple, pizza, pear] Console.log(food)"> const food = [apple, pizza, pear] Console.log(food)<br>
+<input type = "radio" id = "mc" name = "question5" value = "let food = apple; Console.log(food);"> let food = apple; Console.log(food);<br>
+
+<p class = "questions">What is a div tag used for in coding?</p>
+<input type = "radio" id = "mc" name = "question6" value = "property defines a padding (space) between the text and the border"> Property defines a padding (space) between the text and the border<br>
+<input type = "radio" id = "mc" name = "question6" value = "defines a division or a section in an HTML document, often used for style or display elements"> Defines a division or a section in an HTML document, often used for style or display elements<br>
+<input type = "radio" id = "mc" name = "question6" value = "used to define equal styles for elements with the same name"> Used to define equal styles for elements with the same name<br>
+<input type = "radio" id = "mc" name = "question6" value = "property defines a border around an HTML element"> Property defines a border around an HTML element<br>
+
+<p class = "questions">How do you display the number of characters in your name in Ruby?</p>
+<input type = "radio" id = "mc" name = "question7" value = "puts name.sort!"> puts name.sort!<br>
+<input type = "radio" id = "mc" name = "question7" value = "puts name.length"> puts name.length<br>
+<input type = "radio" id = "mc" name = "question7" value = "puts name"> puts name<br>
+<input type = "radio" id = "mc" name = "question7" value = "puts name.number"> puts name.number<br>
+
+<p class = "questions">Which of the following creates an array in Ruby?</p>
+<input type = "radio" id = "mc" name = "question8" value = "example = [w, x, y, z]"> example = [w, x, y, z]<br>
+<input type = "radio" id = "mc" name = "question8" value = "def initialize (w, x, y, z)"> def initialize (w, x, y, z)<br>
+<input type = "radio" id = "mc" name = "question8" value = "example = 'x' + 'y'"> example = 'x' + 'y'<br>
+
+<p class = "questions">How do you search for your existing files on your terminal?</p>
+<input type = "radio" id = "mc" name = "question9" value = "cd"> cd<br>
+<input type = "radio" id = "mc" name = "question9" value = "mkdir"> mkdir<br>
+<input type = "radio" id = "mc" name = "question9" value = "pwd"> pwd<br>
+<input type = "radio" id = "mc" name = "question9" value = "ls"> ls<br>
+
+<p class = "questions">What does "var" stand for?</p>
+<input type = "radio" id = "mc" name = "question10" value = "a string"> a string<br>
+<input type = "radio" id = "mc" name = "question10" value = "a class"> a class<br>
+<input type = "radio" id = "mc" name = "question10" value = "an array"> an array<br>
+<input type = "radio" id = "mc" name = "question10" value = "variable declaration"> variable declaration<br>
+
+
+<input id = "button" type = "button" value = "All Done" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+
+</body>
